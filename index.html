@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>non non no cafe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">non non no</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#top">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Little Story</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-text">
+      <p class="eyebrow">open daily · probably thinking about coffee</p>
+      <h1>coffee first.<br>everything else later.</h1>
+      <p class="hero-sub">a tiny café for slow mornings, sweet things, and conversations that accidentally last for three hours.</p>
+      <a href="#menu" class="btn">see the menu →</a>
+    </div>
+    <div class="hero-image">
+      <img id="heroImage" src="" alt="non non no cafe interior" onerror="this.classList.add('img-empty')">
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro">
+    <h2>nothing too serious.<br>just really good coffee.</h2>
+    <p>non non no cafe is a tiny corner for good coffee, sweet things, quiet afternoons, books, conversations and staying five minutes longer than planned.</p>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu" id="menu">
+    <h2 class="section-title">signature menu</h2>
+
+    <div class="filter-buttons" id="filterButtons">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="coffee">Coffee</button>
+      <button class="filter-btn" data-filter="sweet">Sweet Things</button>
+    </div>
+
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <!-- WHAT KIND OF DAY -->
+  <section class="mood">
+    <h2>okay, what kind of day are we having?</h2>
+    <div class="mood-options" id="moodOptions">
+      <button class="mood-btn" data-mood="caffeine">☕ I need caffeine</button>
+      <button class="mood-btn" data-mood="quiet">📚 I need a quiet corner</button>
+      <button class="mood-btn" data-mood="sweet">🍰 I deserve something sweet</button>
+    </div>
+    <p class="mood-result" id="moodResult"></p>
+  </section>
+
+  <!-- LITTLE STORY -->
+  <section class="story" id="story">
+    <div class="story-image">
+      <img id="storyImage" src="" alt="a quiet corner of the cafe" onerror="this.classList.add('img-empty')">
+    </div>
+    <div class="story-text">
+      <h2>a little place for little things.</h2>
+      <p>Some afternoons are made for rain against the window, a half-finished book, and coffee that's gone lukewarm because you got distracted talking. We built this place for exactly that — for the friends who stay too long, the students who colonize the corner table, and the quiet ones who just want a window seat and nothing else. Nothing here is trying too hard. It doesn't have to.</p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery">
+    <div class="gallery-grid">
+      <img src="" alt="cafe gallery" data-img="gallery1" onerror="this.classList.add('img-empty')">
+      <img src="" alt="cafe gallery" data-img="gallery2" onerror="this.classList.add('img-empty')">
+      <img src="" alt="cafe gallery" data-img="gallery3" onerror="this.classList.add('img-empty')">
+      <img src="" alt="cafe gallery" data-img="gallery4" onerror="this.classList.add('img-empty')">
+    </div>
+  </section>
+
+  <!-- YOUR USUAL -->
+  <section class="usual">
+    <h2>your usual?</h2>
+    <p>coffee you already know you love, pastry you definitely didn't need, and five more minutes before going home.</p>
+    <button class="btn btn-outline" id="usualBtn">pick something for me</button>
+    <p class="usual-result" id="usualResult"></p>
+  </section>
+
+  <!-- VISIT -->
+  <section class="visit" id="visit">
+    <h2>come say hi.</h2>
+    <ul class="visit-info">
+      <li>📍 Uttara, Dhaka</li>
+      <li>🕘 8:00 AM — 10:30 PM</li>
+      <li>☕ Coffee • Pastries • Quiet Corners</li>
+    </ul>
+    <a href="#" class="btn">find us →</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer-name">non non no cafe</p>
+  <p class="footer-line">coffee, conversations &amp; questionable decisions.</p>
+  <div class="footer-links">
+    <a href="#">Instagram</a>
+    <span>·</span>
+    <a href="#">Facebook</a>
+    <span>·</span>
+    <a href="#">Email</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
