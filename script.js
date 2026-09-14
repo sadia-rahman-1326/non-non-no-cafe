@@ -3,20 +3,20 @@
 // ========================================
 
 const images = {
-    hero: "images/barsha.jfif",
-    story: "images/storyyy.jfif ",
+    hero: "images/barsha.jpg",
+    story: "images/storyyy.jpg",
 
-    coffee1: "images/coffee1.jfif",
-    coffee2: "images/coffee2.jfif",
-    coffee3: "images/coffee3.jfif",
+    coffee1: "images/coffee1.jpg",
+    coffee2: "images/coffee2.jpg",
+    coffee3: "images/coffee3.jpg",
 
-    pastry1: "images/pastry1.jfif",
-    pastry2: "images/pastry2.jfif",
+    pastry1: "images/pastry1.jpg",
+    pastry2: "images/pastry2.jpg",
 
-    gallery1: "images/gallery1.jfif",
-    gallery2: "images/gallery2.jfif",
-    gallery3: "images/gallery3.jfif",
-    gallery4: "images/gallery4.jfif"
+    gallery1: "images/gallery1.jpg",
+    gallery2: "images/gallery2.jpg",
+    gallery3: "images/gallery3.jpg",
+    gallery4: "images/gallery4.jpg"
 };
 
 // ========================================
